@@ -1,5 +1,4 @@
-﻿
-namespace ProductReviewManagement
+﻿namespace ProductReviewManagement
 {
     public class Management
     {
@@ -70,3 +69,4 @@ namespace ProductReviewManagement
         }
     }
 }
+

@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace ProductReviewManagement
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to LINQ Product Review Management Program.");
-
+            
             List<ProductReview> productReviewList = new List<ProductReview>()
             {
             new ProductReview() { ProductId = 1, UserId = 1, Rating = 5, Review = "Good", isLike = true},
@@ -27,16 +28,15 @@ namespace ProductReviewManagement
             new ProductReview() { ProductId = 13, UserId = 2, Rating = 5, Review = "Good", isLike = true },
             new ProductReview() { ProductId = 14, UserId = 5, Rating = 4, Review = "Good", isLike = true },
             new ProductReview() { ProductId = 15, UserId = 3, Rating = 2, Review = "Bad", isLike = false },
-
             };
-            //Management.TopThreeByRating(list);
-            // Management.RetrieveAllRecords(list);
-            //Management.retriveCountOfReviewForEachProductID(list);
-            //Management.retriveOnlyProductIDAndReview(list);
-            //Management.skipTopFiveRecordAndDisplayOther(list);
-            Management.retriveOnlyProductIDAndReviewAllRecordsUsingSelect(list);
-
+                        //Management.TopThreeByRating(list);    
+                        //Management.RetrieveAllRecords(list);
+                        //Management.retriveCountOfReviewForEachProductID(list);
+                        //Management.retriveOnlyProductIDAndReview(list);
+                        //Management.skipTopFiveRecordAndDisplayOther(list);
+                          Management.retriveOnlyProductIDAndReviewAllRecordsUsingSelect(list);
+            
         }
     }
-}
+}*/
 
